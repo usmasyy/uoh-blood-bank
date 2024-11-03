@@ -1,0 +1,82 @@
+/* success.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: pulse 2s infinite;
+  }
+  
+  .success-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #c6efce; /* light green background */
+    border: 1px solid #3e8e41; /* green border */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5); /* green shadow */
+  }
+  
+  .success-message h1 {
+    color: #3e8e41; /* green color */
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .success-message p {
+    color: #666; /* dark gray color */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button.btn.primary {
+    background-color: #3e8e41; /* green background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn.primary:hover {
+    background-color: #2e6d31; /* darker green background on hover */
+  }
+  
+  button.btn.primary:active {
+    background-color: #3e8e41; /* green background on active */
+    transform: translateY(2px);
+  }
+  
+  /* Add some animations to make it more happening */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  button.btn.primary {
+    animation: pulse 2s infinite;
+  }
+
+  .msg{
+    text-decoration: none;
+  }
+
+  .msg a{
+    text-decoration: underline;
+    color: rgb(78, 43, 43);
+    font-size: 2rem;
+  }

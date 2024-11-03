@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+      padding: 10px;
+  }
+}
